@@ -1,0 +1,68 @@
+/*Selector universal*/
+
+*{
+    /*Color de fondo*/
+    background-color: aqua;
+
+    /*color del texto*/
+    color:brown;
+}
+
+h1{
+    color: darkorange;
+}
+
+h2{
+    color: palevioletred;
+}
+
+h3{
+    color: peru;
+}
+
+/*De clase*/
+
+.tipografia{
+    /*Tipografía*/
+    font-family: sans-serif;
+    
+    /*Tamaño*/
+    font-size: x-large;
+
+    /*Peso*/
+    font-weight: 900;
+
+    /*Alineación*/
+    text-align: center;
+
+}
+
+#colorcito{
+    color: palevioletred;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+
+body{
+    background-color: red;
+    }
+    
+p{
+    color: blue;
+}
+
+}
+
+img, video{
+    /*ancho*/
+    width: 400px;
+    /*altura*/
+    /*height: 400px;*/
+    border: ridge red;
+}    
